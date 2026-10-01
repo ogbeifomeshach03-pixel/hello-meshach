@@ -24,7 +24,7 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Install Linux dependencies
+      - name: Install dependencies
         run: |
           sudo apt update
           sudo apt install -y \
